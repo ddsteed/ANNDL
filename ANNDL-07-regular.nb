@@ -1,0 +1,256 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     11022,        248]
+NotebookOptionsPosition[     10053,        225]
+NotebookOutlinePosition[     10445,        241]
+CellTagsIndexPosition[     10402,        238]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Mohamed M. Hammad",
+  FontFamily->"FZLanTingHei-DB-GBK",
+  FontSize->12,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]],
+ StyleBox["\[LineSeparator]",
+  FontSize->12,
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["\n",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Artificial Neural Network and Deep Learning                        \
+           ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["<",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, 
+     "ANNDL-06-gen-hyper.nb", CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/ANNDL-06-gen-hyper.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[" ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox[">",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, 
+     "ANNDL-08-adv-activ.nb", CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/ANNDL-08-adv-activ.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["    ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["\[CapitalXi]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, "contents.nb", 
+     CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/contents.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["\[LineSeparator]\[LineSeparator]",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Edited by Hao Feng",
+  FontFamily->"Futura",
+  FontSize->12,
+  FontWeight->"Medium",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]]
+}], "Text",
+ CellMargins->{{66, -45}, {4, 12}},
+ CellChangeTimes->{{3.9397640484222183`*^9, 3.939764052679113*^9}, 
+   3.9397641564677134`*^9, 3.939764214184162*^9, {3.939774845841297*^9, 
+   3.9397748486786137`*^9}, 3.9397769383984737`*^9, 3.939777524212697*^9, {
+   3.939777679887363*^9, 3.9397776986053457`*^9}, 3.939777748637487*^9, {
+   3.939777854556375*^9, 3.939777878635145*^9}, {3.9397779299447737`*^9, 
+   3.9397779337440853`*^9}, {3.9397779656956463`*^9, 
+   3.9397779872993917`*^9}, {3.939783995957651*^9, 3.9397839959644203`*^9}, 
+   3.93994857128743*^9, {3.9403030753694696`*^9, 3.9403030753782463`*^9}, {
+   3.940303217729404*^9, 3.940303217737211*^9}, {3.940741024123201*^9, 
+   3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
+   3.943567220607367*^9, 3.9435672414910088`*^9}, {3.94356735516547*^9, 
+   3.943567355169693*^9}, {3.943575071816586*^9, 3.943575094124228*^9}, {
+   3.943584562254546*^9, 3.943584562260049*^9}, {3.943587365227831*^9, 
+   3.943587376704236*^9}, {3.943603508886746*^9, 3.943603518376856*^9}},
+ LineSpacing->{0.6999999999999997, 3},
+ Background->RGBColor[
+  0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
+ CellID->912160115,ExpressionUUID->"8a3fe8ef-f640-43ed-8d5d-b17c4d787e14"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+CHAPTER 1 
+DESCRIPTIVE STATISTICS AND PROBABILITY THEORY\
+\>", "Chapter",
+ CellChangeTimes->{{3.943587062374938*^9, 
+  3.943587090368903*^9}},ExpressionUUID->"d57b3da9-f388-462b-abf8-\
+d41169208318"],
+
+Cell["\<\
+In the realm of data analysis and machine learning, a profound synergy exists \
+between descriptive statistics, probability theory, and neural networks \
+(NNs). Descriptive statistics serves as the cornerstone for summarizing and \
+interpreting data, providing key insights into the central tendencies and \
+variability within a dataset. In this chapter, we will explore how \
+descriptive statistics act as the initial lens through which we scrutinize \
+and make sense of raw data, setting the stage for more advanced analyses. On \
+the other hand, probability theory plays a pivotal role in quantifying \
+uncertainty and randomness inherent in data. Understanding the principles of \
+probability is fundamental to grasping the probabilistic nature of many \
+real-world phenomena. This chapter elucidates the symbiotic relationship \
+between probability theory and descriptive statistics, showcasing how \
+probability distributions and statistical measures intertwine to form a \
+comprehensive framework for data analysis. \
+\>", "Text",
+ CellChangeTimes->{{3.943587104501073*^9, 3.943587124039783*^9}, {
+  3.94358715656045*^9, 
+  3.943587267194556*^9}},ExpressionUUID->"2f4c455a-90c0-4541-9724-\
+39b4b9c6d74a"],
+
+Cell["\<\
+In the artificial intelligence (AI) applications, probability theory serves \
+as a cornerstone, influencing our approach in two fundamental ways. Firstly, \
+the laws of probability act as guiding principles, shaping the rationale \
+behind how AI systems should reason. In the design phase, we meticulously \
+construct algorithms to compute or approximate diverse expressions derived \
+from probability theory. This intentional integration enables our AI systems \
+to navigate uncertainty, make informed decisions, and exhibit a capacity for \
+adaptive learning. Secondly, the marriage of probability and statistics \
+offers us a lens through which we can theoretically dissect and analyze the \
+behavior of proposed AI systems. This analytical framework allows us to delve \
+into the intricacies of system performance, understand its robustness under \
+varying conditions, and assess the implications of algorithmic choices. By \
+employing probability and statistics in this manner, we gain valuable \
+insights into the theoretical underpinnings of AI, contributing to the \
+refinement and optimization of these intelligent systems.   \
+\>", "Text",
+ CellChangeTimes->{{3.9435872716220903`*^9, 
+  3.943587297861388*^9}},ExpressionUUID->"d2250b98-3938-40a6-acbe-\
+5de1cd2914d2"],
+
+Cell["\<\
+This chapter is crafted with a specific purpose: to facilitate comprehension \
+for readers whose expertise lies predominantly in software engineering and \
+who may have limited exposure to probability theory and descriptive \
+statistics. Recognizing the diverse backgrounds of our audience, we aim to \
+create a bridge, ensuring that the material presented in this book becomes \
+accessible and digestible for those with a foundational background in \
+software engineering. If you are already familiar with probability theory and \
+descriptive statistics, you may wish to skip this chapter.   \
+\>", "Text",
+ CellChangeTimes->{{3.943587299947439*^9, 
+  3.943587305726993*^9}},ExpressionUUID->"e5e30be2-a1b1-4ea9-bcdc-\
+65a9903c9349"],
+
+Cell["\<\
+The chapter delves into descriptive statistics, starting with the \
+construction and interpretation of frequency distributions. Visual \
+representations such as histograms and frequency polygons are introduced, \
+along with measures of central tendency (mean, median, mode, \[Ellipsis]) and \
+measures of dispersion (range, variance, standard deviation, \[Ellipsis]). \
+Additionally, the discussion extends to measures of symmetry and peakedness, \
+including skewness and kurtosis, which aid in characterizing the shape of \
+distributions. The second major section explores probability theory, \
+beginning with the fundamentals of random experiments and sample spaces. \
+Counting techniques, permutations, and combinations are introduced to address \
+probability problems, followed by interpretations and axioms of probability. \
+The chapter proceeds to examine conditional probability and explores discrete \
+random variables and distributions, including probability mass functions. It \
+further covers continuous random variables, probability density functions, \
+and prominent continuous probability distributions.   \
+\>", "Text",
+ CellChangeTimes->{{3.943587307391571*^9, 
+  3.9435873125439262`*^9}},ExpressionUUID->"6ed02d44-be73-4baa-b741-\
+5f2dca859c1a"],
+
+Cell["\<\
+This chapter is a summary of my book titled \[OpenCurlyDoubleQuote]Statistics \
+for Machine Learning with Mathematica Applications\[CloseCurlyDoubleQuote]. \
+For detailed proofs of theorems, additional examples, and comprehensive \
+explanations, including Mathematica applications, please refer to Ref [1].\
+\>", "Text",
+ CellChangeTimes->{
+  3.943587313925988*^9},ExpressionUUID->"b1ff3f66-782d-4081-aefe-\
+69ef325eb1b5"]
+}, Open  ]]
+},
+WindowSize->{960, 1027},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"64f7d172-aa30-4cf2-bffc-edab7bbc3980"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 4279, 105, 132, "Text",ExpressionUUID->"8a3fe8ef-f640-43ed-8d5d-b17c4d787e14",
+ CellID->912160115],
+Cell[CellGroupData[{
+Cell[4858, 129, 209, 6, 201, "Chapter",ExpressionUUID->"d57b3da9-f388-462b-abf8-d41169208318"],
+Cell[5070, 137, 1221, 19, 288, "Text",ExpressionUUID->"2f4c455a-90c0-4541-9724-39b4b9c6d74a"],
+Cell[6294, 158, 1287, 19, 315, "Text",ExpressionUUID->"d2250b98-3938-40a6-acbe-5de1cd2914d2"],
+Cell[7584, 179, 743, 12, 178, "Text",ExpressionUUID->"e5e30be2-a1b1-4ea9-bcdc-65a9903c9349"],
+Cell[8330, 193, 1272, 19, 315, "Text",ExpressionUUID->"6ed02d44-be73-4baa-b741-5f2dca859c1a"],
+Cell[9605, 214, 432, 8, 96, "Text",ExpressionUUID->"b1ff3f66-782d-4081-aefe-69ef325eb1b5"]
+}, Open  ]]
+}
+]
+*)
+

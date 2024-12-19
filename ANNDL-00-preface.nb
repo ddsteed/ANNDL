@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     25518,        504]
+NotebookDataLength[     25519,        504]
 NotebookOptionsPosition[     22168,        433]
-NotebookOutlinePosition[     22633,        450]
-CellTagsIndexPosition[     22590,        447]
+NotebookOutlinePosition[     22634,        450]
+CellTagsIndexPosition[     22591,        447]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -103,7 +103,7 @@ Learning/contents.nb"],
  LineSpacing->{0.6999999999999997, 3},
  Background->RGBColor[
   0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
- CellID->912160115,ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682"],
+ CellID->912160115,ExpressionUUID->"1c255bc0-c4e0-42e4-a82f-738775130196"],
 
 Cell[CellGroupData[{
 
@@ -111,7 +111,7 @@ Cell["Abstract", "Section",
  CellChangeTimes->{
   3.652728456208679*^9, 3.652728527108994*^9, {3.943567532627124*^9, 
    3.94356753418813*^9}},
- CellID->267521681,ExpressionUUID->"2e5765d9-8252-4cea-bdf4-0aa61e6cae3c"],
+ CellID->267521681,ExpressionUUID->"72321a38-a4b0-4c7e-a0c8-2ac7257fba50"],
 
 Cell["\<\
 \[OpenCurlyDoubleQuote]Artificial Neural Network and Deep Learning: \
@@ -145,7 +145,7 @@ intelligence.\
 \>", "Text",
  CellChangeTimes->{{3.943567541767359*^9, 3.943567546317319*^9}, {
   3.943575107235924*^9, 3.943575111684477*^9}},
- CellID->938621000,ExpressionUUID->"63cc618f-6750-4202-8205-f55e7eea3810"]
+ CellID->938621000,ExpressionUUID->"06401c5a-6094-4f05-bd60-e893b0618742"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -155,7 +155,7 @@ Cell["Preface", "Section",
   3.652728456208679*^9, 3.652728527108994*^9, {3.93977430409951*^9, 
    3.939774306756702*^9}, {3.939774503882483*^9, 3.939774505098134*^9}},
  CounterAssignments->{{"Section", 0}},
- CellID->1815624021,ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1"],
+ CellID->1815624021,ExpressionUUID->"56886e67-cbe3-4f27-ac08-c85ee17c234c"],
 
 Cell["\<\
 The rapid advancements in artificial intelligence over the past few decades \
@@ -170,7 +170,7 @@ technologies, equipping readers with the theoretical knowledge needed to \
 understand, and design advanced neural network models. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575169944619*^9}},
- CellID->789420508,ExpressionUUID->"fd239395-a532-4053-a485-4391a11ccd85"],
+ CellID->789420508,ExpressionUUID->"e671359e-8983-4c75-bb85-8b3c3e196e9f"],
 
 Cell["\<\
 A central focus of this book is to introduce readers to the solid \
@@ -186,7 +186,7 @@ easily follow them. It can be used as a textbook for a course spanning one \
 semester. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575178311472*^9}},
- CellID->1783924704,ExpressionUUID->"114a0d29-ad4a-48b5-a76e-27897cce65ea"],
+ CellID->1783924704,ExpressionUUID->"c82d9aec-1ceb-459c-909e-ab1a6af876e2"],
 
 Cell["\<\
 Each chapter is designed to build on the previous ones, creating a cohesive \
@@ -197,7 +197,7 @@ artificial intelligence and contribute to the ongoing advancements in this \
 exciting field. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575186022274*^9}},
- CellID->1583982392,ExpressionUUID->"f60c0deb-600f-4b24-83c8-7c2f096eeced"],
+ CellID->1583982392,ExpressionUUID->"6e053b99-dab7-47e6-9fdc-ea9ae4a9ca28"],
 
 Cell["\<\
 The journey begins with Chapter 1: Descriptive Statistics and Probability \
@@ -215,7 +215,7 @@ as they provide the statistical framework upon which these models are built. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575193114493*^9, 3.9435751931387033`*^9}},
- CellID->1413944941,ExpressionUUID->"f87a0f12-1e3a-4ddf-aaca-66639f40979c"],
+ CellID->1413944941,ExpressionUUID->"ca6a1a5d-aff4-467d-b9ba-6ab4c5f0413f"],
 
 Cell["\<\
 Moving forward, Chapter 2: Matrix Calculus and Gradient Optimization \
@@ -229,7 +229,7 @@ readers with the skills to optimize neural network models effectively. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575198631351*^9, 3.943575198655917*^9}},
- CellID->1525448359,ExpressionUUID->"404c780c-c259-4047-8731-ef8e7dcc2452"],
+ CellID->1525448359,ExpressionUUID->"863f9ecc-2613-4f87-ab1a-9818d56df22c"],
 
 Cell["\<\
 Chapter 3: Multilayer Feed-Forward Neural Networks dives into the core \
@@ -244,7 +244,7 @@ approximation theorems, providing both intuitive and mathematical insights. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575202547361*^9, 3.943575202572358*^9}},
- CellID->1705273201,ExpressionUUID->"26b8cd6e-7acc-4fa8-b827-9c3e9ead8d7b"],
+ CellID->1705273201,ExpressionUUID->"5b83c005-24c4-48fb-a16a-b8a6448eeadc"],
 
 Cell["\<\
 In Chapter 4: Challenges in Neural Network Optimization, we address common \
@@ -257,7 +257,7 @@ understand how to stabilize and improve the training process. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.943575212455283*^9}},
- CellID->1013957291,ExpressionUUID->"cc08d1a6-b311-4671-a79a-b0a2f5f8040f"],
+ CellID->1013957291,ExpressionUUID->"ddca71e6-1ed3-4956-8197-6036fa6ebd5f"],
 
 Cell["\<\
 Chapter 5: Learning Rate Schedules and Adaptive Algorithms focuses on methods \
@@ -271,7 +271,7 @@ comprehensive overview of advanced optimization techniques. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.943575216232123*^9}},
- CellID->1675030702,ExpressionUUID->"59cb1cc4-456a-4547-b476-1af9cf20d0cd"],
+ CellID->1675030702,ExpressionUUID->"79160c82-5a9d-4f9f-a4f1-15bc91849462"],
 
 Cell["\<\
 Chapter 6: Strategies for Generalization and Hyper-Parameter Tuning explores \
@@ -286,7 +286,7 @@ processes and acquisition functions used in Bayesian optimization. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.9435752197835417`*^9}},
- CellID->582575135,ExpressionUUID->"9d3acde9-2eac-4908-b5a0-29d22cc60ee0"],
+ CellID->582575135,ExpressionUUID->"0c0fb409-913d-4e56-b406-52408e470c2e"],
 
 Cell["\<\
 Chapter 7: Regularization Techniques provides an in-depth look at methods to \
@@ -298,7 +298,7 @@ readers with a toolkit of methods to improve model robustness. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.9435752248538647`*^9}},
- CellID->1255182671,ExpressionUUID->"f4d741c0-e4f5-40cd-bbac-bf5d8d1e1ba6"],
+ CellID->1255182671,ExpressionUUID->"90162b32-078c-4c50-b670-e50a0ebdadf1"],
 
 Cell["\<\
 Chapter 8: Advanced Activation Functions delves into the diverse world of \
@@ -312,7 +312,7 @@ on model behavior. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.943575227554418*^9}},
- CellID->1147996201,ExpressionUUID->"16117130-34cd-43ef-bd46-f038b286317b"],
+ CellID->1147996201,ExpressionUUID->"71881b78-7eef-4bf6-9aad-f2c4b3a35ca5"],
 
 Cell["\<\
 Chapter 9: Complex Valued Neural Networks introduces the concept of \
@@ -324,7 +324,7 @@ of this advanced topic in neural network research. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.943575232431629*^9}},
- CellID->720006440,ExpressionUUID->"23a5402d-4efa-4f64-97dd-8c3fc830431f"],
+ CellID->720006440,ExpressionUUID->"5bcacbf1-3315-4481-9a7a-6ef88506c3e3"],
 
 Cell["\<\
 Finally, we extend our heartfelt thanks to Professor Mohamed Abdalla Darwish, \
@@ -335,7 +335,7 @@ discussions and continued encouragement. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
   3.943575211424527*^9, 3.943575238569768*^9}},
- CellID->169004514,ExpressionUUID->"dc4fa7ff-16df-460c-a943-bc2ff86d8029"],
+ CellID->169004514,ExpressionUUID->"350318ec-8f9d-4ee8-bb4d-9293ea7bf0a2"],
 
 Cell["\<\
 We also wish to express our sincere appreciation to our colleagues and \
@@ -347,7 +347,7 @@ El-Essawey, Aziza Salah, and Eman R. Hendawy for their contributions. \
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, 
    3.943575211424527*^9, {3.9435752430731897`*^9, 3.94357524309774*^9}},
- CellID->544140152,ExpressionUUID->"8d18ce80-8b37-44e1-a125-27700da902c1"],
+ CellID->544140152,ExpressionUUID->"3dbf25fc-1de6-41e7-8d0a-522b7d9d3b8f"],
 
 Cell["\<\
 We hope that you find this book informative and inspiring, and that it serves \
@@ -356,20 +356,20 @@ networks and deep learning.\
 \>", "Text",
  CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, 
    3.943575211424527*^9},
- CellID->1870918578,ExpressionUUID->"9101f21e-4b7c-4a64-b1bf-5bcfd597bdba"],
+ CellID->1870918578,ExpressionUUID->"19c1184e-68bc-45cb-8b54-3ac454ae6131"],
 
 Cell["knowledge itself is power - Sir Francis Bacon 1597 ", "Text",
  CellChangeTimes->{{3.943567570061882*^9, 3.943567579071979*^9}, 
    3.943567728500908*^9, {3.9435677800777597`*^9, 3.943567780102065*^9}},
  TextAlignment->Right,
  FontSlant->"Italic",
- CellID->2126199977,ExpressionUUID->"d985b295-5961-4fdf-8c8e-5f6aed9db582"],
+ CellID->2126199977,ExpressionUUID->"bbf225c4-d799-47ed-8279-77d9579999d1"],
 
 Cell["Egypt 2024 M. M. Hammad", "Text",
  CellChangeTimes->{{3.943567570061882*^9, 3.943567579071979*^9}, 
    3.943567728500908*^9},
  TextAlignment->Right,
- CellID->1443446675,ExpressionUUID->"cfa8da4d-6e55-4df2-8533-7d883b3b06ae"]
+ CellID->1443446675,ExpressionUUID->"5de77146-d576-4a91-b821-2de7821a7c46"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -377,7 +377,7 @@ Cell[CellGroupData[{
 Cell["Bridging Theory and Practice: The Dual Approach of This Book", "Section",
  CellChangeTimes->{3.652728456208679*^9, 3.652728527108994*^9, 
   3.9435678367517633`*^9},
- CellID->2001686121,ExpressionUUID->"17faf0aa-a893-4ec8-a283-6dfd39b506a7"],
+ CellID->2001686121,ExpressionUUID->"1bd35bbd-8db8-4533-89fe-b833f97ce383"],
 
 Cell["\<\
 Many books on neural networks and deep learning tend to lean either heavily \
@@ -390,7 +390,7 @@ harness the power of neural networks and deep learning in their pursuit of \
 excellence across various domains. \
 \>", "Text",
  CellChangeTimes->{{3.943567844516358*^9, 3.943567854557646*^9}},
- CellID->2007305392,ExpressionUUID->"c689dce9-d6ef-47ee-afb9-063630908698"],
+ CellID->2007305392,ExpressionUUID->"6834510f-186c-4bb5-9932-347ede72882b"],
 
 Cell["\<\
 However, attempting to cover both the theoretical concepts and computational \
@@ -408,7 +408,7 @@ approach will provide you with a well-rounded understanding and the skills \
 necessary to excel in this field. \
 \>", "Text",
  CellChangeTimes->{{3.943567844516358*^9, 3.943567861678993*^9}},
- CellID->433903130,ExpressionUUID->"f6700c16-c920-431d-87b0-6538b7364cdb"],
+ CellID->433903130,ExpressionUUID->"e417f1b7-a0d0-4a99-ac2e-914560edeed9"],
 
 Cell["\<\
 The book \[OpenCurlyDoubleQuote]Neural Network and Deep Learning with \
@@ -428,11 +428,11 @@ network and deep learning calculations, simulate data, and create visual \
 representations of their findings.\
 \>", "Text",
  CellChangeTimes->{{3.943567844516358*^9, 3.943567848742261*^9}},
- CellID->741060932,ExpressionUUID->"95e6bdc2-e5c7-4466-9c1e-d4d8689e0ca3"]
+ CellID->741060932,ExpressionUUID->"2e64733d-8885-465e-bd6a-6be4f65c7e49"]
 }, Open  ]]
 },
-WindowSize->{960, 1027},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1024, 1099},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -449,61 +449,61 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 3489, 85, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+Cell[554, 20, 3489, 85, 130, "Text",ExpressionUUID->"1c255bc0-c4e0-42e4-a82f-738775130196",
  CellID->912160115],
 Cell[CellGroupData[{
-Cell[4068, 109, 218, 4, 133, "Section",ExpressionUUID->"2e5765d9-8252-4cea-bdf4-0aa61e6cae3c",
+Cell[4068, 109, 218, 4, 133, "Section",ExpressionUUID->"72321a38-a4b0-4c7e-a0c8-2ac7257fba50",
  CellID->267521681],
-Cell[4289, 115, 2261, 32, 724, "Text",ExpressionUUID->"63cc618f-6750-4202-8205-f55e7eea3810",
+Cell[4289, 115, 2261, 32, 724, "Text",ExpressionUUID->"06401c5a-6094-4f05-bd60-e893b0618742",
  CellID->938621000]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6587, 152, 303, 5, 133, "Section",ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1",
+Cell[6587, 152, 303, 5, 133, "Section",ExpressionUUID->"56886e67-cbe3-4f27-ac08-c85ee17c234c",
  CounterAssignments->{{"Section", 0}},
  CellID->1815624021],
-Cell[6893, 159, 899, 13, 281, "Text",ExpressionUUID->"fd239395-a532-4053-a485-4391a11ccd85",
+Cell[6893, 159, 899, 13, 281, "Text",ExpressionUUID->"e671359e-8983-4c75-bb85-8b3c3e196e9f",
  CellID->789420508],
-Cell[7795, 174, 945, 14, 311, "Text",ExpressionUUID->"114a0d29-ad4a-48b5-a76e-27897cce65ea",
+Cell[7795, 174, 945, 14, 311, "Text",ExpressionUUID->"c82d9aec-1ceb-459c-909e-ab1a6af876e2",
  CellID->1783924704],
-Cell[8743, 190, 562, 9, 163, "Text",ExpressionUUID->"f60c0deb-600f-4b24-83c8-7c2f096eeced",
+Cell[8743, 190, 562, 9, 163, "Text",ExpressionUUID->"6e053b99-dab7-47e6-9fdc-ea9ae4a9ca28",
  CellID->1583982392],
-Cell[9308, 201, 1061, 16, 311, "Text",ExpressionUUID->"f87a0f12-1e3a-4ddf-aaca-66639f40979c",
+Cell[9308, 201, 1061, 16, 311, "Text",ExpressionUUID->"ca6a1a5d-aff4-467d-b9ba-6ab4c5f0413f",
  CellID->1413944941],
-Cell[10372, 219, 824, 12, 252, "Text",ExpressionUUID->"404c780c-c259-4047-8731-ef8e7dcc2452",
+Cell[10372, 219, 824, 12, 252, "Text",ExpressionUUID->"863f9ecc-2613-4f87-ab1a-9818d56df22c",
  CellID->1525448359],
-Cell[11199, 233, 891, 13, 281, "Text",ExpressionUUID->"26b8cd6e-7acc-4fa8-b827-9c3e9ead8d7b",
+Cell[11199, 233, 891, 13, 281, "Text",ExpressionUUID->"5b83c005-24c4-48fb-a16a-b8a6448eeadc",
  CellID->1705273201],
-Cell[12093, 248, 726, 11, 222, "Text",ExpressionUUID->"cc08d1a6-b311-4671-a79a-b0a2f5f8040f",
+Cell[12093, 248, 726, 11, 222, "Text",ExpressionUUID->"ddca71e6-1ed3-4956-8197-6036fa6ebd5f",
  CellID->1013957291],
-Cell[12822, 261, 806, 12, 252, "Text",ExpressionUUID->"59cb1cc4-456a-4547-b476-1af9cf20d0cd",
+Cell[12822, 261, 806, 12, 252, "Text",ExpressionUUID->"79160c82-5a9d-4f9f-a4f1-15bc91849462",
  CellID->1675030702],
-Cell[13631, 275, 900, 13, 281, "Text",ExpressionUUID->"9d3acde9-2eac-4908-b5a0-29d22cc60ee0",
+Cell[13631, 275, 900, 13, 281, "Text",ExpressionUUID->"0c0fb409-913d-4e56-b406-52408e470c2e",
  CellID->582575135],
-Cell[14534, 290, 654, 10, 193, "Text",ExpressionUUID->"f4d741c0-e4f5-40cd-bbac-bf5d8d1e1ba6",
+Cell[14534, 290, 654, 10, 193, "Text",ExpressionUUID->"90162b32-078c-4c50-b670-e50a0ebdadf1",
  CellID->1255182671],
-Cell[15191, 302, 752, 12, 222, "Text",ExpressionUUID->"16117130-34cd-43ef-bd46-f038b286317b",
+Cell[15191, 302, 752, 12, 222, "Text",ExpressionUUID->"71881b78-7eef-4bf6-9aad-f2c4b3a35ca5",
  CellID->1147996201],
-Cell[15946, 316, 643, 10, 193, "Text",ExpressionUUID->"23a5402d-4efa-4f64-97dd-8c3fc830431f",
+Cell[15946, 316, 643, 10, 193, "Text",ExpressionUUID->"5bcacbf1-3315-4481-9a7a-6ef88506c3e3",
  CellID->720006440],
-Cell[16592, 328, 553, 9, 163, "Text",ExpressionUUID->"dc4fa7ff-16df-460c-a943-bc2ff86d8029",
+Cell[16592, 328, 553, 9, 163, "Text",ExpressionUUID->"350318ec-8f9d-4ee8-bb4d-9293ea7bf0a2",
  CellID->169004514],
-Cell[17148, 339, 693, 10, 193, "Text",ExpressionUUID->"8d18ce80-8b37-44e1-a125-27700da902c1",
+Cell[17148, 339, 693, 10, 193, "Text",ExpressionUUID->"3dbf25fc-1de6-41e7-8d0a-522b7d9d3b8f",
  CellID->544140152],
-Cell[17844, 351, 379, 7, 104, "Text",ExpressionUUID->"9101f21e-4b7c-4a64-b1bf-5bcfd597bdba",
+Cell[17844, 351, 379, 7, 104, "Text",ExpressionUUID->"19c1184e-68bc-45cb-8b54-3ac454ae6131",
  CellID->1870918578],
-Cell[18226, 360, 328, 5, 45, "Text",ExpressionUUID->"d985b295-5961-4fdf-8c8e-5f6aed9db582",
+Cell[18226, 360, 328, 5, 45, "Text",ExpressionUUID->"bbf225c4-d799-47ed-8279-77d9579999d1",
  CellID->2126199977],
-Cell[18557, 367, 230, 4, 45, "Text",ExpressionUUID->"cfa8da4d-6e55-4df2-8533-7d883b3b06ae",
+Cell[18557, 367, 230, 4, 45, "Text",ExpressionUUID->"5de77146-d576-4a91-b821-2de7821a7c46",
  CellID->1443446675]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18824, 376, 246, 3, 174, "Section",ExpressionUUID->"17faf0aa-a893-4ec8-a283-6dfd39b506a7",
+Cell[18824, 376, 246, 3, 174, "Section",ExpressionUUID->"1bd35bbd-8db8-4533-89fe-b833f97ce383",
  CellID->2001686121],
-Cell[19073, 381, 729, 11, 222, "Text",ExpressionUUID->"c689dce9-d6ef-47ee-afb9-063630908698",
+Cell[19073, 381, 729, 11, 222, "Text",ExpressionUUID->"6834510f-186c-4bb5-9932-347ede72882b",
  CellID->2007305392],
-Cell[19805, 394, 1084, 16, 340, "Text",ExpressionUUID->"f6700c16-c920-431d-87b0-6538b7364cdb",
+Cell[19805, 394, 1084, 16, 340, "Text",ExpressionUUID->"e417f1b7-a0d0-4a99-ac2e-914560edeed9",
  CellID->433903130],
-Cell[20892, 412, 1260, 18, 399, "Text",ExpressionUUID->"95e6bdc2-e5c7-4466-9c1e-d4d8689e0ca3",
+Cell[20892, 412, 1260, 18, 399, "Text",ExpressionUUID->"2e64733d-8885-465e-bd6a-6be4f65c7e49",
  CellID->741060932]
 }, Open  ]]
 }

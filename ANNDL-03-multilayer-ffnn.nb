@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    232271,       3911]
-NotebookOptionsPosition[    229867,       3857]
-NotebookOutlinePosition[    230334,       3874]
-CellTagsIndexPosition[    230291,       3871]
+NotebookDataLength[    233155,       3932]
+NotebookOptionsPosition[    230749,       3878]
+NotebookOutlinePosition[    231216,       3895]
+CellTagsIndexPosition[    231173,       3892]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,7 +33,27 @@ Cell[TextData[{
   FontSlant->"Italic",
   FontColor->RGBColor[1, 0.5, 0]],
  StyleBox["Artificial Neural Network and Deep Learning                        \
-            ",
+           ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["<",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, 
+     "ANNDL-02-matrix-gradient.nb", CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/ANNDL-02-matrix-gradient.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[" ",
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -43,10 +63,11 @@ Cell[TextData[{
   BaseStyle->"Hyperlink",
   ButtonData->{
     FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
-      "EDITED", "MPAAI"}, "MPAAI-1-Introduction.nb", CharacterEncoding -> 
-     "UTF-8"], None},
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, 
+     "ANNDL-04-challenge-opt.nb", CharacterEncoding -> "UTF-8"], None},
   ButtonNote->
-   "/Users/fengh/Documents/RDS/EDITED/MPAAI/MPAAI-1-Introduction.nb"],
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/ANNDL-04-challenge-opt.nb"],
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -97,7 +118,7 @@ Learning/contents.nb"],
    3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
    3.943567220607367*^9, 3.9435672414910088`*^9}, {3.94356735516547*^9, 
    3.943567355169693*^9}, {3.943575071816586*^9, 3.943575094124228*^9}, 
-   3.9435845777679577`*^9},
+   3.9435845777679577`*^9, {3.943603272209831*^9, 3.943603295230742*^9}},
  LineSpacing->{0.6999999999999997, 3},
  Background->RGBColor[
   0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
@@ -3873,42 +3894,42 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 3345, 83, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+Cell[554, 20, 4227, 104, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
  CellID->912160115],
 Cell[CellGroupData[{
-Cell[3924, 107, 175, 2, 143, "Chapter",ExpressionUUID->"3868bb2c-70fd-4376-9ca3-1a60a839d3aa",
+Cell[4806, 128, 175, 2, 143, "Chapter",ExpressionUUID->"3868bb2c-70fd-4376-9ca3-1a60a839d3aa",
  CellID->736962789],
-Cell[4102, 111, 954, 15, 281, "Text",ExpressionUUID->"ec7b110a-2940-4741-bea6-17130ad12b93",
+Cell[4984, 132, 954, 15, 281, "Text",ExpressionUUID->"ec7b110a-2940-4741-bea6-17130ad12b93",
  CellID->1595402474],
-Cell[5059, 128, 538, 9, 134, "Text",ExpressionUUID->"674c80e3-0fff-48d2-9c00-abfd855bbc33",
+Cell[5941, 149, 538, 9, 134, "Text",ExpressionUUID->"674c80e3-0fff-48d2-9c00-abfd855bbc33",
  CellID->1460284107],
-Cell[5600, 139, 529, 9, 134, "Text",ExpressionUUID->"88b4b46e-720a-4460-9e05-3a6d2a6043c9",
+Cell[6482, 160, 529, 9, 134, "Text",ExpressionUUID->"88b4b46e-720a-4460-9e05-3a6d2a6043c9",
  CellID->356528190],
-Cell[6132, 150, 588, 10, 163, "Text",ExpressionUUID->"5df042fd-9c65-4fb9-9155-c6ab1c320302",
+Cell[7014, 171, 588, 10, 163, "Text",ExpressionUUID->"5df042fd-9c65-4fb9-9155-c6ab1c320302",
  CellID->1882402611],
-Cell[6723, 162, 686, 11, 163, "Text",ExpressionUUID->"27f6eeee-9187-4b19-97c3-f3e8ac435d01",
+Cell[7605, 183, 686, 11, 163, "Text",ExpressionUUID->"27f6eeee-9187-4b19-97c3-f3e8ac435d01",
  CellID->827697746],
-Cell[7412, 175, 566, 10, 134, "Text",ExpressionUUID->"7551d1dc-250b-4685-9d34-6eb4b751c4c2",
+Cell[8294, 196, 566, 10, 134, "Text",ExpressionUUID->"7551d1dc-250b-4685-9d34-6eb4b751c4c2",
  CellID->99713624],
-Cell[7981, 187, 1017, 16, 281, "Text",ExpressionUUID->"ac742d24-a987-4c03-a449-0177c9d4a300",
+Cell[8863, 208, 1017, 16, 281, "Text",ExpressionUUID->"ac742d24-a987-4c03-a449-0177c9d4a300",
  CellID->2125481384],
-Cell[9001, 205, 574, 10, 134, "Text",ExpressionUUID->"8739c7c4-99cc-4ab6-a250-88fba5db0a15",
+Cell[9883, 226, 574, 10, 134, "Text",ExpressionUUID->"8739c7c4-99cc-4ab6-a250-88fba5db0a15",
  CellID->2097801917],
-Cell[9578, 217, 511, 9, 134, "Text",ExpressionUUID->"64323b96-16c9-466e-8025-fa2aafaec5f1",
+Cell[10460, 238, 511, 9, 134, "Text",ExpressionUUID->"64323b96-16c9-466e-8025-fa2aafaec5f1",
  CellID->850711370],
 Cell[CellGroupData[{
-Cell[10114, 230, 241, 4, 133, "Section",ExpressionUUID->"81f4a1de-42fc-48e4-a32d-a77d5b80aadc",
+Cell[10996, 251, 241, 4, 133, "Section",ExpressionUUID->"81f4a1de-42fc-48e4-a32d-a77d5b80aadc",
  CellID->448564076],
-Cell[10358, 236, 216632, 3557, 406, "Text",ExpressionUUID->"160da198-b530-4ad6-9c0e-f71a83c6137d",
+Cell[11240, 257, 216632, 3557, 406, "Text",ExpressionUUID->"160da198-b530-4ad6-9c0e-f71a83c6137d",
  CellID->1280764264],
-Cell[226993, 3795, 234, 4, 45, "CodeCaption",ExpressionUUID->"17f48486-d9ab-4650-8432-37e491c1497c",
+Cell[227875, 3816, 234, 4, 45, "CodeCaption",ExpressionUUID->"17f48486-d9ab-4650-8432-37e491c1497c",
  CellID->1576391167],
 Cell[CellGroupData[{
-Cell[227252, 3803, 169, 2, 68, "Subsection",ExpressionUUID->"c00ce30c-0695-4c01-8d08-f040a0651974",
+Cell[228134, 3824, 169, 2, 68, "Subsection",ExpressionUUID->"c00ce30c-0695-4c01-8d08-f040a0651974",
  CellID->2107357511],
-Cell[227424, 3807, 865, 12, 281, "Text",ExpressionUUID->"e4aa2e5e-45b8-418a-a6dc-1922f310a177",
+Cell[228306, 3828, 865, 12, 281, "Text",ExpressionUUID->"e4aa2e5e-45b8-418a-a6dc-1922f310a177",
  CellID->2057381053],
-Cell[228292, 3821, 1535, 31, 224, "Text",ExpressionUUID->"95308813-99d1-4a40-8162-ecdebc2880a4",
+Cell[229174, 3842, 1535, 31, 224, "Text",ExpressionUUID->"95308813-99d1-4a40-8162-ecdebc2880a4",
  CellID->75352852]
 }, Open  ]]
 }, Open  ]]
