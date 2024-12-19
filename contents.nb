@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      3842,        105]
+NotebookOptionsPosition[      2123,         65]
+NotebookOutlinePosition[      3559,        102]
+CellTagsIndexPosition[      3516,         99]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Contents", "TOCTitle",ExpressionUUID->"28881314-a0e1-4b31-9356-7f3c80e78ec8"],
+
+Cell[TextData[ButtonBox["Abstract",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "ANNDL-00-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2e5765d9-8252-4cea-bdf4-0aa61e6cae3c", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"9c9f89ec-a824-42ea-\
+8a60-ddf3753d952f"],
+
+Cell[TextData[ButtonBox["Preface",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "ANNDL-00-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "779ac440-64b9-421f-a613-32e9713c20c1", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"7ccd00f5-6981-4099-\
+bb31-2a5b213c05f8"],
+
+Cell[TextData[ButtonBox["Bridging Theory and Practice: The Dual Approach of \
+This Book",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "ANNDL-00-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "17faf0aa-a893-4ec8-a283-6dfd39b506a7", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"c7c1a4f6-5265-44db-\
+acb7-c5a55a0937a9"]
+}, Open  ]]
+},
+WindowToolbars->{},
+WindowSize->{808, 911},
+WindowMargins->{{556, Automatic}, {Automatic, 58}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData["TOCTitle"], CellFrame -> {{0, 0}, {0, 0}}, 
+    CellMargins -> {{47, Inherited}, {12, 64}}, 
+    CellGroupingRules -> {"SectionGrouping", 60}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 28, FontSlant -> "Plain", 
+    FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["TOCSection"], CellMargins -> {{66, 3}, {-13, 9}}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 20, FontSlant -> "Plain", 
+    FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["TOCSubsection"], CellMargins -> {{82, 3}, {2, 7}}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 16, FontSlant -> "Italic", 
+    FontColor -> GrayLevel[0.2]], 
+   Cell[
+    StyleData["TOCSubsubsection"], CellMargins -> {{95, 3}, {2, 7}}, 
+    FontFamily -> "Source Sans Pro Semibold", FontSize -> 13, FontSlant -> 
+    "Italic", FontColor -> GrayLevel[0.25]]}, Visible -> False, 
+  FrontEndVersion -> "14.1 for Mac OS X ARM (64-bit) (July 16, 2024)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"c95d955f-9aa3-4069-a7c1-f7d9171cf1a6"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 83, 0, 136, "TOCTitle",ExpressionUUID->"28881314-a0e1-4b31-9356-7f3c80e78ec8"],
+Cell[662, 24, 462, 11, 40, "TOCSection",ExpressionUUID->"9c9f89ec-a824-42ea-8a60-ddf3753d952f"],
+Cell[1127, 37, 461, 11, 40, "TOCSection",ExpressionUUID->"7ccd00f5-6981-4099-bb31-2a5b213c05f8"],
+Cell[1591, 50, 516, 12, 40, "TOCSection",ExpressionUUID->"c7c1a4f6-5265-44db-acb7-c5a55a0937a9"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

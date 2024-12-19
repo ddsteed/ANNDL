@@ -1,0 +1,507 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     25280,        499]
+NotebookOptionsPosition[     21930,        428]
+NotebookOutlinePosition[     22395,        445]
+CellTagsIndexPosition[     22352,        442]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Mohamed M. Hammad",
+  FontFamily->"FZLanTingHei-DB-GBK",
+  FontSize->12,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]],
+ StyleBox["\[LineSeparator]",
+  FontSize->12,
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["\n",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Artificial Neural Network and Deep Learning                        \
+            ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox[">",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "MPAAI"}, "MPAAI-1-Introduction.nb", CharacterEncoding -> 
+     "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/MPAAI/MPAAI-1-Introduction.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["    ",
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox[ButtonBox["\[CapitalXi]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
+      "EDITED", "Neural_NetWork_and_Deep_Learning"}, "contents.nb", 
+     CharacterEncoding -> "UTF-8"], None},
+  ButtonNote->
+   "/Users/fengh/Documents/RDS/EDITED/Neural_NetWork_and_Deep_Learning/\
+contents.nb"],
+  FontFamily->"Arial Unicode MS",
+  FontSize->17.5,
+  FontWeight->"Regular",
+  FontColor->RGBColor[
+   0.9866483558403907, 0.9388876173037308, 0.6336003662165255]],
+ StyleBox["\[LineSeparator]\[LineSeparator]",
+  FontSize->12,
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.5, 0]],
+ StyleBox["Edited by Hao Feng",
+  FontFamily->"Futura",
+  FontSize->12,
+  FontWeight->"Medium",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.8488288700694285, 0.3848325322346838, 0.1479972533760586]]
+}], "Text",
+ CellMargins->{{66, -45}, {4, 12}},
+ CellChangeTimes->{{3.9397640484222183`*^9, 3.939764052679113*^9}, 
+   3.9397641564677134`*^9, 3.939764214184162*^9, {3.939774845841297*^9, 
+   3.9397748486786137`*^9}, 3.9397769383984737`*^9, 3.939777524212697*^9, {
+   3.939777679887363*^9, 3.9397776986053457`*^9}, 3.939777748637487*^9, {
+   3.939777854556375*^9, 3.939777878635145*^9}, {3.9397779299447737`*^9, 
+   3.9397779337440853`*^9}, {3.9397779656956463`*^9, 
+   3.9397779872993917`*^9}, {3.939783995957651*^9, 3.9397839959644203`*^9}, 
+   3.93994857128743*^9, {3.9403030753694696`*^9, 3.9403030753782463`*^9}, {
+   3.940303217729404*^9, 3.940303217737211*^9}, {3.940741024123201*^9, 
+   3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
+   3.943567220607367*^9, 3.9435672414910088`*^9}, {3.94356735516547*^9, 
+   3.943567355169693*^9}, {3.943575071816586*^9, 3.943575094124228*^9}},
+ LineSpacing->{0.6999999999999997, 3},
+ Background->RGBColor[
+  0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
+ CellID->912160115,ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682"],
+
+Cell[CellGroupData[{
+
+Cell["Abstract", "Section",
+ CellChangeTimes->{
+  3.652728456208679*^9, 3.652728527108994*^9, {3.943567532627124*^9, 
+   3.94356753418813*^9}},
+ CellID->267521681,ExpressionUUID->"2e5765d9-8252-4cea-bdf4-0aa61e6cae3c"],
+
+Cell["\<\
+\[OpenCurlyDoubleQuote]Artificial Neural Network and Deep Learning: \
+Fundamentals and Theory\[CloseCurlyDoubleQuote] offers a comprehensive \
+exploration of the foundational principles and advanced methodologies in \
+neural networks and deep learning. This book begins with essential concepts \
+in descriptive statistics and probability theory, laying a solid groundwork \
+for understanding data and probability distributions. As the reader \
+progresses, they are introduced to matrix calculus and gradient optimization, \
+crucial for training and fine-tuning neural networks. The book delves into \
+multilayer feed-forward neural networks, explaining their architecture, \
+training processes, and the backpropagation algorithm. Key challenges in \
+neural network optimization, such as activation function saturation, \
+vanishing and exploding gradients, and weight initialization, are thoroughly \
+discussed. The text covers various learning rate schedules and adaptive \
+algorithms, providing strategies to optimize the training process. Techniques \
+for generalization and hyperparameter tuning, including Bayesian optimization \
+and Gaussian processes, are also presented to enhance model performance and \
+prevent overfitting. Advanced activation functions are explored in detail, \
+categorized into sigmoid-based, ReLU- based, ELU-based, miscellaneous, \
+non-standard, and combined types. Each activation function is examined for \
+its properties and applications, offering readers a deep understanding of \
+their impact on neural network behavior. The final chapter introduces \
+complex-valued neural networks, discussing complex numbers, functions, and \
+visualizations, as well as complex calculus and backpropagation algorithms. \
+This chapter provides a comprehensive overview of complex activation \
+functions and their unique properties. This book equips readers with the \
+knowledge and skills necessary to design, and optimize advanced neural \
+network models, contributing to the ongoing advancements in artificial \
+intelligence.\
+\>", "Text",
+ CellChangeTimes->{{3.943567541767359*^9, 3.943567546317319*^9}, {
+  3.943575107235924*^9, 3.943575111684477*^9}},
+ CellID->938621000,ExpressionUUID->"63cc618f-6750-4202-8205-f55e7eea3810"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Preface", "Section",
+ CellChangeTimes->{
+  3.652728456208679*^9, 3.652728527108994*^9, {3.93977430409951*^9, 
+   3.939774306756702*^9}, {3.939774503882483*^9, 3.939774505098134*^9}},
+ CounterAssignments->{{"Section", 0}},
+ CellID->1815624021,ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1"],
+
+Cell["\<\
+The rapid advancements in artificial intelligence over the past few decades \
+have significantly transformed various industries, leading to breakthroughs \
+that were once considered science fiction. Central to these advancements are \
+artificial neural networks and deep learning, which have revolutionized \
+fields such as computer vision, natural language processing, autonomous \
+systems, and beyond. This book, \[OpenCurlyDoubleQuote]Artificial Neural \
+Network and Deep Learning: Fundamentals and Theory,\[CloseCurlyDoubleQuote] \
+aims to provide a comprehensive and in-depth exploration of these \
+technologies, equipping readers with the theoretical knowledge needed to \
+understand, and design advanced neural network models. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575169944619*^9}},
+ CellID->789420508,ExpressionUUID->"fd239395-a532-4053-a485-4391a11ccd85"],
+
+Cell["\<\
+A central focus of this book is to introduce readers to the solid \
+mathematical foundations underlying neural networks. This book is designed \
+not only to cater to beginners in the field but also to serve as a valuable \
+reference for seasoned data scientists, machine learning practitioners, \
+biostatisticians, finance professionals, and engineers. Whether they possess \
+prior knowledge of deep learning or seek to fill gaps in their understanding, \
+this book aims to address their needs. We assume that the reader has no prior \
+experience in neural networks and optimization. We tried to provide proofs as \
+simply as possible so that any reader with a background in calculus could \
+easily follow them. It can be used as a textbook for a course spanning one \
+semester. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575178311472*^9}},
+ CellID->1783924704,ExpressionUUID->"114a0d29-ad4a-48b5-a76e-27897cce65ea"],
+
+Cell["\<\
+Each chapter is designed to build on the previous ones, creating a cohesive \
+and comprehensive guide to artificial neural networks and deep learning. \
+Whether you are a student, researcher, or practitioner, this book will equip \
+you with the knowledge and skills to tackle the challenges of modern \
+artificial intelligence and contribute to the ongoing advancements in this \
+exciting field. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575186022274*^9}},
+ CellID->1583982392,ExpressionUUID->"f60c0deb-600f-4b24-83c8-7c2f096eeced"],
+
+Cell["\<\
+The journey begins with Chapter 1: Descriptive Statistics and Probability \
+Theory, where we lay the foundation by discussing essential concepts in \
+statistics and probability. This chapter covers frequency distributions, \
+histograms, and measures of central tendency and dispersion. It further \
+delves into the concepts of symmetry and peakedness, random experiments, \
+sample spaces, and counting techniques. The chapter concludes with a detailed \
+examination of probability interpretations, axioms, conditional probability, \
+and the different types of random variables and distributions, both discrete \
+and continuous. Understanding these fundamental concepts is crucial for \
+anyone looking to delve into machine learning and neural network algorithms, \
+as they provide the statistical framework upon which these models are built. \
+\
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575193114493*^9, 3.9435751931387033`*^9}},
+ CellID->1413944941,ExpressionUUID->"f87a0f12-1e3a-4ddf-aaca-66639f40979c"],
+
+Cell["\<\
+Moving forward, Chapter 2: Matrix Calculus and Gradient Optimization \
+introduces the mathematical tools necessary for understanding and optimizing \
+neural networks. This chapter covers vectors and matrices using both index \
+and Dirac notations, basics of matrix calculus, and the chain rule. It also \
+explores numerical differentiation, finite difference methods, and optimality \
+criteria for functions of multiple variables. The concepts of gradient \
+descent and other optimization techniques are thoroughly discussed, providing \
+readers with the skills to optimize neural network models effectively. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575198631351*^9, 3.943575198655917*^9}},
+ CellID->1525448359,ExpressionUUID->"404c780c-c259-4047-8731-ef8e7dcc2452"],
+
+Cell["\<\
+Chapter 3: Multilayer Feed-Forward Neural Networks dives into the core \
+architecture of neural networks. It explains feed-forward neural networks and \
+forward propagation, presenting the multilayer network as a computational \
+graph. The chapter also covers automatic differentiation, the training \
+process, and loss/cost functions. It introduces the fundamental equations \
+behind backpropagation and discusses various gradient descent algorithms, \
+including batch, stochastic, and mini-batch methods. The chapter concludes \
+with a discussion on linear activation functions and the universal \
+approximation theorems, providing both intuitive and mathematical insights. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575202547361*^9, 3.943575202572358*^9}},
+ CellID->1705273201,ExpressionUUID->"26b8cd6e-7acc-4fa8-b827-9c3e9ead8d7b"],
+
+Cell["\<\
+In Chapter 4: Challenges in Neural Network Optimization, we address common \
+issues faced when training neural networks. This chapter explores activation \
+function saturation, vanishing and exploding gradients, and weight \
+initialization techniques. It also discusses non-zero centered activation \
+functions and feature scaling methods. Techniques such as normalization, \
+standardization, and batch normalization are presented to help readers \
+understand how to stabilize and improve the training process. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.943575212455283*^9}},
+ CellID->1013957291,ExpressionUUID->"cc08d1a6-b311-4671-a79a-b0a2f5f8040f"],
+
+Cell["\<\
+Chapter 5: Learning Rate Schedules and Adaptive Algorithms focuses on methods \
+to adjust and optimize the learning rate during training. Various dynamic \
+learning rate decay methods, including step decay, inverse time decay, and \
+cyclical learning rates, are covered. The chapter also discusses accelerated \
+gradient descent methods, adaptive learning rate algorithms, and \
+Hessian-based methods such as Newton and Marquardt methods. Conjugate \
+direction methods and quasi-Newton approaches are also presented, providing a \
+comprehensive overview of advanced optimization techniques. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.943575216232123*^9}},
+ CellID->1675030702,ExpressionUUID->"59cb1cc4-456a-4547-b476-1af9cf20d0cd"],
+
+Cell["\<\
+Chapter 6: Strategies for Generalization and Hyper-Parameter Tuning explores \
+techniques to prevent overfitting and ensure that models generalize well to \
+new data. This chapter covers statistical learning theory, point estimation, \
+and the bias-variance trade-off. It also discusses training, testing, and \
+validation sets, including cross-validation techniques. Performance measures \
+for classification and regression models are presented, along with various \
+hyperparameter tuning methods such as grid search, random search, and \
+Bayesian optimization. The chapter concludes with a discussion on Gaussian \
+processes and acquisition functions used in Bayesian optimization. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.9435752197835417`*^9}},
+ CellID->582575135,ExpressionUUID->"9d3acde9-2eac-4908-b5a0-29d22cc60ee0"],
+
+Cell["\<\
+Chapter 7: Regularization Techniques provides an in-depth look at methods to \
+prevent overfitting and improve model performance. This chapter covers \
+penalty-based regularization methods, including L2 (ridge) and L1 \
+regularization, as well as elastic net regularization. Techniques such as \
+early stopping, ensemble methods, and dropout are also discussed, providing \
+readers with a toolkit of methods to improve model robustness. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.9435752248538647`*^9}},
+ CellID->1255182671,ExpressionUUID->"f4d741c0-e4f5-40cd-bbac-bf5d8d1e1ba6"],
+
+Cell["\<\
+Chapter 8: Advanced Activation Functions delves into the diverse world of \
+activation functions used in neural networks. This chapter categorizes \
+activation functions into sigmoid-based, ReLU-based, ELU-based, \
+miscellaneous, non-standard, and combined activation functions. Each type is \
+discussed in detail, highlighting their properties, advantages, and \
+applications. The chapter aims to provide a thorough understanding of the \
+role of activation functions in neural network performance and their impact \
+on model behavior. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.943575227554418*^9}},
+ CellID->1147996201,ExpressionUUID->"16117130-34cd-43ef-bd46-f038b286317b"],
+
+Cell["\<\
+Chapter 9: Complex Valued Neural Networks introduces the concept of \
+complex-valued neural networks and their unique properties. This chapter \
+covers complex numbers, functions, and their visualizations, along with \
+complex calculus and backpropagation algorithms. It discusses the properties \
+and types of complex activation functions, providing a comprehensive overview \
+of this advanced topic in neural network research. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.943575232431629*^9}},
+ CellID->720006440,ExpressionUUID->"23a5402d-4efa-4f64-97dd-8c3fc830431f"],
+
+Cell["\<\
+Finally, we extend our heartfelt thanks to Professor Mohamed Abdalla Darwish, \
+Head of the Department of Mathematics and Computer Science, Faculty of \
+Science, Damanhour University, Egypt, for his unwavering support. We are \
+profoundly grateful to Professor Amr R. El Dhaba for his invaluable \
+discussions and continued encouragement. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, {
+  3.943575211424527*^9, 3.943575238569768*^9}},
+ CellID->169004514,ExpressionUUID->"dc4fa7ff-16df-460c-a943-bc2ff86d8029"],
+
+Cell["\<\
+We also wish to express our sincere appreciation to our colleagues and \
+friends for their invaluable feedback, thoughtful comments, and constructive \
+suggestions. In particular, we would like to acknowledge Professor Hamed \
+Awad, Dr. Fatma El-Safty, Dr. Hamdy El Shamy, Dr. Mohamed Elhaddad, Mohamed \
+Yahia, Ayman A. Abdelaziz, Eman Farag, Hassan M. Shetawy, Walaa Mansour, Moaz \
+El-Essawey, Aziza Salah, and Eman R. Hendawy for their contributions. \
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, 
+   3.943575211424527*^9, {3.9435752430731897`*^9, 3.94357524309774*^9}},
+ CellID->544140152,ExpressionUUID->"8d18ce80-8b37-44e1-a125-27700da902c1"],
+
+Cell["\<\
+We hope that you find this book informative and inspiring, and that it serves \
+as a valuable resource in your journey through the world of artificial neural \
+networks and deep learning.\
+\>", "Text",
+ CellChangeTimes->{{3.943575150467389*^9, 3.943575161936103*^9}, 
+   3.943575211424527*^9},
+ CellID->1870918578,ExpressionUUID->"9101f21e-4b7c-4a64-b1bf-5bcfd597bdba"],
+
+Cell["knowledge itself is power - Sir Francis Bacon 1597 ", "Text",
+ CellChangeTimes->{{3.943567570061882*^9, 3.943567579071979*^9}, 
+   3.943567728500908*^9, {3.9435677800777597`*^9, 3.943567780102065*^9}},
+ FontSlant->"Italic",
+ CellID->2126199977,ExpressionUUID->"d985b295-5961-4fdf-8c8e-5f6aed9db582"],
+
+Cell["Egypt 2024 M. M. Hammad", "Text",
+ CellChangeTimes->{{3.943567570061882*^9, 3.943567579071979*^9}, 
+   3.943567728500908*^9},
+ CellID->1443446675,ExpressionUUID->"cfa8da4d-6e55-4df2-8533-7d883b3b06ae"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Bridging Theory and Practice: The Dual Approach of This Book", "Section",
+ CellChangeTimes->{3.652728456208679*^9, 3.652728527108994*^9, 
+  3.9435678367517633`*^9},
+ CellID->2001686121,ExpressionUUID->"17faf0aa-a893-4ec8-a283-6dfd39b506a7"],
+
+Cell["\<\
+Many books on neural networks and deep learning tend to lean either heavily \
+on theoretical aspects, with dense mathematical formulations, or focus \
+predominantly on computational algorithms, often at the expense of a solid \
+mathematical foundation. This book adopts a balanced approach that bridges \
+the gap between these extremes. By seamlessly integrating theoretical \
+principles with practical implementation, it empowers learners to fully \
+harness the power of neural networks and deep learning in their pursuit of \
+excellence across various domains. \
+\>", "Text",
+ CellChangeTimes->{{3.943567844516358*^9, 3.943567854557646*^9}},
+ CellID->2007305392,ExpressionUUID->"c689dce9-d6ef-47ee-afb9-063630908698"],
+
+Cell["\<\
+However, attempting to cover both the theoretical concepts and computational \
+algorithms exhaustively within a single volume would be impractical. To \
+ensure a thorough exploration of both aspects, this book is divided into two \
+complementary parts. The first part is titled \
+\[OpenCurlyDoubleQuote]Artificial Neural Network and Deep Learning: \
+Fundamentals and Theory.\[CloseCurlyDoubleQuote] The second part is titled \
+\[OpenCurlyDoubleQuote] Neural Network and Deep Learning with Mathematica\
+\[CloseCurlyDoubleQuote] For each theoretical chapter in the first part, \
+there is a corresponding chapter in the second part. We strongly recommend \
+that after completing each theoretical chapter, you explore the corresponding \
+practical implementation chapter in the complementary volume. This dual \
+approach will provide you with a well-rounded understanding and the skills \
+necessary to excel in this field. \
+\>", "Text",
+ CellChangeTimes->{{3.943567844516358*^9, 3.943567861678993*^9}},
+ CellID->433903130,ExpressionUUID->"f6700c16-c920-431d-87b0-6538b7364cdb"],
+
+Cell["\<\
+The book \[OpenCurlyDoubleQuote]Neural Network and Deep Learning with \
+Mathematica\[CloseCurlyDoubleQuote] adopts a refreshingly code-centric \
+approach, enabling you to solidify your understanding through hands-on \
+practice. Nearly all the concepts introduced are accompanied by illustrative \
+code examples, making the learning experience both practical and tangible. \
+Even the figures in the first part are generated using these code examples, \
+emphasizing the code-first methodology. To ensure accessibility and ease of \
+understanding, the code examples are deliberately crafted in a simple format, \
+prioritizing readability over efficiency and generality. In line with our \
+instructional philosophy, each code example serves a dual purpose: not only \
+does it demonstrate a specific deep learning concept, but it also \
+simultaneously introduces and reinforces Mathematica programming techniques. \
+Readers will learn how to leverage Mathematica to perform complex neural \
+network and deep learning calculations, simulate data, and create visual \
+representations of their findings.\
+\>", "Text",
+ CellChangeTimes->{{3.943567844516358*^9, 3.943567848742261*^9}},
+ CellID->741060932,ExpressionUUID->"95e6bdc2-e5c7-4466-9c1e-d4d8689e0ca3"]
+}, Open  ]]
+},
+WindowSize->{960, 1027},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8861bace-5584-420b-8e0c-c51fd7c6d3a1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 3297, 82, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+ CellID->912160115],
+Cell[CellGroupData[{
+Cell[3876, 106, 218, 4, 133, "Section",ExpressionUUID->"2e5765d9-8252-4cea-bdf4-0aa61e6cae3c",
+ CellID->267521681],
+Cell[4097, 112, 2261, 32, 724, "Text",ExpressionUUID->"63cc618f-6750-4202-8205-f55e7eea3810",
+ CellID->938621000]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6395, 149, 303, 5, 133, "Section",ExpressionUUID->"779ac440-64b9-421f-a613-32e9713c20c1",
+ CounterAssignments->{{"Section", 0}},
+ CellID->1815624021],
+Cell[6701, 156, 899, 13, 281, "Text",ExpressionUUID->"fd239395-a532-4053-a485-4391a11ccd85",
+ CellID->789420508],
+Cell[7603, 171, 945, 14, 311, "Text",ExpressionUUID->"114a0d29-ad4a-48b5-a76e-27897cce65ea",
+ CellID->1783924704],
+Cell[8551, 187, 562, 9, 163, "Text",ExpressionUUID->"f60c0deb-600f-4b24-83c8-7c2f096eeced",
+ CellID->1583982392],
+Cell[9116, 198, 1061, 16, 311, "Text",ExpressionUUID->"f87a0f12-1e3a-4ddf-aaca-66639f40979c",
+ CellID->1413944941],
+Cell[10180, 216, 824, 12, 252, "Text",ExpressionUUID->"404c780c-c259-4047-8731-ef8e7dcc2452",
+ CellID->1525448359],
+Cell[11007, 230, 891, 13, 281, "Text",ExpressionUUID->"26b8cd6e-7acc-4fa8-b827-9c3e9ead8d7b",
+ CellID->1705273201],
+Cell[11901, 245, 726, 11, 222, "Text",ExpressionUUID->"cc08d1a6-b311-4671-a79a-b0a2f5f8040f",
+ CellID->1013957291],
+Cell[12630, 258, 806, 12, 252, "Text",ExpressionUUID->"59cb1cc4-456a-4547-b476-1af9cf20d0cd",
+ CellID->1675030702],
+Cell[13439, 272, 900, 13, 281, "Text",ExpressionUUID->"9d3acde9-2eac-4908-b5a0-29d22cc60ee0",
+ CellID->582575135],
+Cell[14342, 287, 654, 10, 193, "Text",ExpressionUUID->"f4d741c0-e4f5-40cd-bbac-bf5d8d1e1ba6",
+ CellID->1255182671],
+Cell[14999, 299, 752, 12, 222, "Text",ExpressionUUID->"16117130-34cd-43ef-bd46-f038b286317b",
+ CellID->1147996201],
+Cell[15754, 313, 643, 10, 193, "Text",ExpressionUUID->"23a5402d-4efa-4f64-97dd-8c3fc830431f",
+ CellID->720006440],
+Cell[16400, 325, 553, 9, 163, "Text",ExpressionUUID->"dc4fa7ff-16df-460c-a943-bc2ff86d8029",
+ CellID->169004514],
+Cell[16956, 336, 693, 10, 193, "Text",ExpressionUUID->"8d18ce80-8b37-44e1-a125-27700da902c1",
+ CellID->544140152],
+Cell[17652, 348, 379, 7, 104, "Text",ExpressionUUID->"9101f21e-4b7c-4a64-b1bf-5bcfd597bdba",
+ CellID->1870918578],
+Cell[18034, 357, 305, 4, 45, "Text",ExpressionUUID->"d985b295-5961-4fdf-8c8e-5f6aed9db582",
+ CellID->2126199977],
+Cell[18342, 363, 207, 3, 45, "Text",ExpressionUUID->"cfa8da4d-6e55-4df2-8533-7d883b3b06ae",
+ CellID->1443446675]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18586, 371, 246, 3, 174, "Section",ExpressionUUID->"17faf0aa-a893-4ec8-a283-6dfd39b506a7",
+ CellID->2001686121],
+Cell[18835, 376, 729, 11, 222, "Text",ExpressionUUID->"c689dce9-d6ef-47ee-afb9-063630908698",
+ CellID->2007305392],
+Cell[19567, 389, 1084, 16, 340, "Text",ExpressionUUID->"f6700c16-c920-431d-87b0-6538b7364cdb",
+ CellID->433903130],
+Cell[20654, 407, 1260, 18, 399, "Text",ExpressionUUID->"95e6bdc2-e5c7-4466-9c1e-d4d8689e0ca3",
+ CellID->741060932]
+}, Open  ]]
+}
+]
+*)
+
