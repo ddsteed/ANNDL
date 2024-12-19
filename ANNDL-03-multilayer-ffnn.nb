@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    232221,       3910]
-NotebookOptionsPosition[    229819,       3856]
-NotebookOutlinePosition[    230284,       3873]
-CellTagsIndexPosition[    230241,       3870]
+NotebookDataLength[    232271,       3911]
+NotebookOptionsPosition[    229867,       3857]
+NotebookOutlinePosition[    230334,       3874]
+CellTagsIndexPosition[    230291,       3871]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -62,11 +62,11 @@ Cell[TextData[{
   BaseStyle->"Hyperlink",
   ButtonData->{
     FrontEnd`FileName[{$RootDirectory, "Users", "fengh", "Documents", "RDS", 
-      "EDITED", "Neural_NetWork_and_Deep_Learning"}, "contents.nb", 
+      "EDITED", "Artifical_Neural_Network_and_Deep_Learning"}, "contents.nb", 
      CharacterEncoding -> "UTF-8"], None},
   ButtonNote->
-   "/Users/fengh/Documents/RDS/EDITED/Neural_NetWork_and_Deep_Learning/\
-contents.nb"],
+   "/Users/fengh/Documents/RDS/EDITED/Artifical_Neural_Network_and_Deep_\
+Learning/contents.nb"],
   FontFamily->"Arial Unicode MS",
   FontSize->17.5,
   FontWeight->"Regular",
@@ -96,7 +96,8 @@ contents.nb"],
    3.940303217729404*^9, 3.940303217737211*^9}, {3.940741024123201*^9, 
    3.940741027365489*^9}, {3.940741081934002*^9, 3.940741081942062*^9}, {
    3.943567220607367*^9, 3.9435672414910088`*^9}, {3.94356735516547*^9, 
-   3.943567355169693*^9}, {3.943575071816586*^9, 3.943575094124228*^9}},
+   3.943567355169693*^9}, {3.943575071816586*^9, 3.943575094124228*^9}, 
+   3.9435845777679577`*^9},
  LineSpacing->{0.6999999999999997, 3},
  Background->RGBColor[
   0.13066300450141147`, 0.12460517280842298`, 0.4353551537346456],
@@ -3855,7 +3856,7 @@ a neuron can be represented mathematically as follows:"
 }, Open  ]]
 },
 WindowSize->{960, 1027},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowMargins->{{347, Automatic}, {Automatic, 0}},
 FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -3872,42 +3873,42 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 3297, 82, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
+Cell[554, 20, 3345, 83, 130, "Text",ExpressionUUID->"67aab6c7-b186-4fbc-a04a-683b7453f682",
  CellID->912160115],
 Cell[CellGroupData[{
-Cell[3876, 106, 175, 2, 143, "Chapter",ExpressionUUID->"3868bb2c-70fd-4376-9ca3-1a60a839d3aa",
+Cell[3924, 107, 175, 2, 143, "Chapter",ExpressionUUID->"3868bb2c-70fd-4376-9ca3-1a60a839d3aa",
  CellID->736962789],
-Cell[4054, 110, 954, 15, 281, "Text",ExpressionUUID->"ec7b110a-2940-4741-bea6-17130ad12b93",
+Cell[4102, 111, 954, 15, 281, "Text",ExpressionUUID->"ec7b110a-2940-4741-bea6-17130ad12b93",
  CellID->1595402474],
-Cell[5011, 127, 538, 9, 134, "Text",ExpressionUUID->"674c80e3-0fff-48d2-9c00-abfd855bbc33",
+Cell[5059, 128, 538, 9, 134, "Text",ExpressionUUID->"674c80e3-0fff-48d2-9c00-abfd855bbc33",
  CellID->1460284107],
-Cell[5552, 138, 529, 9, 134, "Text",ExpressionUUID->"88b4b46e-720a-4460-9e05-3a6d2a6043c9",
+Cell[5600, 139, 529, 9, 134, "Text",ExpressionUUID->"88b4b46e-720a-4460-9e05-3a6d2a6043c9",
  CellID->356528190],
-Cell[6084, 149, 588, 10, 163, "Text",ExpressionUUID->"5df042fd-9c65-4fb9-9155-c6ab1c320302",
+Cell[6132, 150, 588, 10, 163, "Text",ExpressionUUID->"5df042fd-9c65-4fb9-9155-c6ab1c320302",
  CellID->1882402611],
-Cell[6675, 161, 686, 11, 163, "Text",ExpressionUUID->"27f6eeee-9187-4b19-97c3-f3e8ac435d01",
+Cell[6723, 162, 686, 11, 163, "Text",ExpressionUUID->"27f6eeee-9187-4b19-97c3-f3e8ac435d01",
  CellID->827697746],
-Cell[7364, 174, 566, 10, 134, "Text",ExpressionUUID->"7551d1dc-250b-4685-9d34-6eb4b751c4c2",
+Cell[7412, 175, 566, 10, 134, "Text",ExpressionUUID->"7551d1dc-250b-4685-9d34-6eb4b751c4c2",
  CellID->99713624],
-Cell[7933, 186, 1017, 16, 281, "Text",ExpressionUUID->"ac742d24-a987-4c03-a449-0177c9d4a300",
+Cell[7981, 187, 1017, 16, 281, "Text",ExpressionUUID->"ac742d24-a987-4c03-a449-0177c9d4a300",
  CellID->2125481384],
-Cell[8953, 204, 574, 10, 134, "Text",ExpressionUUID->"8739c7c4-99cc-4ab6-a250-88fba5db0a15",
+Cell[9001, 205, 574, 10, 134, "Text",ExpressionUUID->"8739c7c4-99cc-4ab6-a250-88fba5db0a15",
  CellID->2097801917],
-Cell[9530, 216, 511, 9, 134, "Text",ExpressionUUID->"64323b96-16c9-466e-8025-fa2aafaec5f1",
+Cell[9578, 217, 511, 9, 134, "Text",ExpressionUUID->"64323b96-16c9-466e-8025-fa2aafaec5f1",
  CellID->850711370],
 Cell[CellGroupData[{
-Cell[10066, 229, 241, 4, 133, "Section",ExpressionUUID->"81f4a1de-42fc-48e4-a32d-a77d5b80aadc",
+Cell[10114, 230, 241, 4, 133, "Section",ExpressionUUID->"81f4a1de-42fc-48e4-a32d-a77d5b80aadc",
  CellID->448564076],
-Cell[10310, 235, 216632, 3557, 406, "Text",ExpressionUUID->"160da198-b530-4ad6-9c0e-f71a83c6137d",
+Cell[10358, 236, 216632, 3557, 406, "Text",ExpressionUUID->"160da198-b530-4ad6-9c0e-f71a83c6137d",
  CellID->1280764264],
-Cell[226945, 3794, 234, 4, 45, "CodeCaption",ExpressionUUID->"17f48486-d9ab-4650-8432-37e491c1497c",
+Cell[226993, 3795, 234, 4, 45, "CodeCaption",ExpressionUUID->"17f48486-d9ab-4650-8432-37e491c1497c",
  CellID->1576391167],
 Cell[CellGroupData[{
-Cell[227204, 3802, 169, 2, 68, "Subsection",ExpressionUUID->"c00ce30c-0695-4c01-8d08-f040a0651974",
+Cell[227252, 3803, 169, 2, 68, "Subsection",ExpressionUUID->"c00ce30c-0695-4c01-8d08-f040a0651974",
  CellID->2107357511],
-Cell[227376, 3806, 865, 12, 281, "Text",ExpressionUUID->"e4aa2e5e-45b8-418a-a6dc-1922f310a177",
+Cell[227424, 3807, 865, 12, 281, "Text",ExpressionUUID->"e4aa2e5e-45b8-418a-a6dc-1922f310a177",
  CellID->2057381053],
-Cell[228244, 3820, 1535, 31, 224, "Text",ExpressionUUID->"95308813-99d1-4a40-8162-ecdebc2880a4",
+Cell[228292, 3821, 1535, 31, 224, "Text",ExpressionUUID->"95308813-99d1-4a40-8162-ecdebc2880a4",
  CellID->75352852]
 }, Open  ]]
 }, Open  ]]
